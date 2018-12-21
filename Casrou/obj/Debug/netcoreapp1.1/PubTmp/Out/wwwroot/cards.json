@@ -1,0 +1,49 @@
+{
+  "socials": [
+    {
+      "type": "SOCIAL",
+      "title": "Github",
+      "src": "/images/github.png",
+      "href": "https://github.com/casrou",
+      "username": "Casrou"
+    },
+    {
+      "type": "SOCIAL",
+      "title": "Twitter",
+      "src": "/images/twitter.png",
+      "href": "https://twitter.com/CasperRou",
+      "username": "CasperRou"
+    },
+    {
+      "type": "SOCIAL",
+      "title": "Facebook",
+      "src": "/images/facebook.png",
+      "href": "https://facebook.com/CasperRou",
+      "username": "CasperRou"
+    },
+    {
+      "type": "SOCIAL",
+      "title": "LinkedIn",
+      "src": "/images/linkedin.png",
+      "href": "https://linkedin.com/in/casrou",
+      "username": "Casrou"
+    }
+  ],
+  "quotes": [
+    {
+      "type": "QUOTE",
+      "quote": "Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live",
+      "author": "John Woods"
+    }
+  ],
+  "images": [
+    {
+    "type": "IMAGE",
+    "src": "/images/penguin.jpg"
+    },
+    {
+      "type": "IMAGE",
+      "src": "/images/me.png"
+    }
+  ]
+}

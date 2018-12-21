@@ -1,0 +1,45 @@
+﻿@using Casrou.Models;
+@model List<BaseCard>
+@{
+    ViewData["Title"] = "About";
+}
+
+<div class="container">
+    <div class="card-columns">
+        @foreach (BaseCard card in Model)
+        {
+            switch (card.CardType)
+            {
+                case CardType.SOCIAL:
+                    SocialCard socialCard = (SocialCard)card;
+                    <div class="card text-center">
+                        <img class="card-img-top" src="@socialCard.ImageSrc" alt="Card image">
+                        <div class="card-body">
+                            <h5 class="card-title">@socialCard.Title</h5>
+                            <a href="@socialCard.Href">@@@socialCard.Username</a>
+                        </div>
+                    </div>
+                    break;
+                case CardType.QUOTE:
+                    QuoteCard quoteCard = (QuoteCard)card;
+                    <div class="card p-3 text-right">
+                        <blockquote class="blockquote mb-0">
+                            <p>@quoteCard.Quote</p>
+                            <footer class="blockquote-footer">
+                                <small class="text-muted">
+                                    <cite title="@quoteCard.Author">@quoteCard.Author</cite>
+                                </small>
+                            </footer>
+                        </blockquote>
+                    </div>
+                    break;
+                case CardType.IMAGE:
+                    ImageCard imageCard = (ImageCard)card;
+                    <div class="card">
+                        <img class="card-img" src="@imageCard.ImageSrc" alt="Card image">
+                    </div>
+                    break;
+            }
+        }
+    </div>
+</div>

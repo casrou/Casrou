@@ -1,0 +1,14 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.card-img-top {
+    padding-top: 20px;
+    width: 50%;
+}
+
+.card-img-icon {
+    padding-top: 10px;
+    width: 25%;
+}
