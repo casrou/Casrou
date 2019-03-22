@@ -3,4 +3,4 @@ Dynamically generates different cards (socials, quotes and images) from `cards.j
 ![](casrou.gif)
 
 ## How to use
-Clone the repository and change `Casoru/wwwroot/cards.json`.
+Clone the repository and change `Casrou/wwwroot/cards.json`.
